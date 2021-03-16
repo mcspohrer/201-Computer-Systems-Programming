@@ -1,0 +1,50 @@
+Script started on Mon 21 May 2018 03:15:10 PM PDT
+mspohrer@babbage:~/CS201_Stuff/prog3/mspohrer$ make clean
+rm -f *.o hw3 hw3a1
+mspohrer@babbage:~/CS201_Stuff/prog3/mspohrer$ ls
+crca1.s  crc.c	hw3.c  Makefile  typescript
+mspohrer@babbage:~/CS201_Stuff/prog3/mspohrer$ make
+gcc -c -g -o hw3.o -ansi -pedantic -O0 -Wall hw3.c
+gcc -c -g -o crc.o -ansi -pedantic -O0 -Wall crc.c
+gcc -g -o hw3 -ansi -pedantic -O0 -Wall hw3.o crc.o
+as --64 -o crca1.o crca1.s
+gcc -g -o hw3a1 -ansi -pedantic -O0 -Wall hw3.o crca1.o
+mspohrer@babbage:~/CS201_Stuff/prog3/mspohrer$ ./hw3
+
+Insufficient number of arguments provided.
+Example: ./hw3 message
+(Note, if your message has spaces in it, you may need to surround it in "quotes"!)
+
+
+Exiting.
+
+mspohrer@babbage:~/CS201_Stuff/prog3/mspohrer$ ./hw3a1
+
+Insufficient number of arguments provided.
+Example: ./hw3 message
+(Note, if your message has spaces in it, you may need to surround it in "quotes"!)
+
+
+Exiting.
+
+mspohrer@babbage:~/CS201_Stuff/prog3/mspohrer$ ./hw3 "Look ma, I'm wrting [K[K[K[K[Kiting in assembly code!" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+
+Results
+=======
+
+CRC: 57
+Iterations run: 1000000.  Total execution time: 12000 ms.  Time per iteration: 12 us
+
+mspohrer@babbage:~/CS201_Stuff/prog3/mspohrer$ ./hw3 "Look ma, I'm writing in assembly code!" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca "Look ma, I'm writing in assembly code!""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 "Look ma, I'm writing in assembly code!"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+Results
+=======
+
+CRC: 57
+Iterations run: 1000000.  Total execution time: 7000 ms.  Time per iteration: 7 us
+
+mspohrer@babbage:~/CS201_Stuff/prog3/mspohrer$ exit
+exit
+
+Script done on Mon 21 May 2018 03:16:29 PM PDT

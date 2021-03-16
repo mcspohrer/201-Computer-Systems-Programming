@@ -1,0 +1,31 @@
+Script started on Sun 29 Apr 2018 03:33:12 PM PDT
+mspohrer@fiordland:~/CS201_Stuff/prog2$ make setBits.c [K[K[K
+gcc -g  setBits.c -o setBits
+mspohrer@fiordland:~/CS201_Stuff/prog2$ make showBits.c [K[K[K
+gcc -g  showBits.c -o showBits
+mspohrer@fiordland:~/CS201_Stuff/prog2$ ./setBits 3 13 8 14 15
+
+1110 0001 0000 1000 
+
+mspohrer@fiordland:~/CS201_Stuff/prog2$ ./setBits 3 13 8 14 15[K[K[K[K[K[K[K[K[K[K[K[K16
+
+Don't you have anything better to do than to try to make me not work? I need a number between 0 and 15 and you knew that!mspohrer@fiordland:~/CS201_Stuff/prog2$ ./setBits 16[K[K-1
+
+Don't you have anything better to do than to try to make me not work? I need a number between 0 and 15 and you knew that!mspohrer@fiordland:~/CS201_Stuff/prog2$ ./showBits 
+
+
+Please provide two hex numbers as arguments to the program instead of wasting my time with not using me correctly!
+
+mspohrer@fiordland:~/CS201_Stuff/prog2$ ./showBits 0xe0c874a3 0xd49157ff
+Bits 0, 1, 5, 7, 10, 12, 14, 23, 30, 31, in common.
+Hexadecimal: c08054a3, Signed: -1065331549, Unsigned: 3229635747
+
+mspohrer@fiordland:~/CS201_Stuff/prog2$ ./showBits 0xe0c874a3 0xd49157ff 0x34455134
+
+
+Please provide two hex numbers as arguments to the program instead of wasting my time with not using me correctly!
+
+mspohrer@fiordland:~/CS201_Stuff/prog2$ exit
+exit
+
+Script done on Sun 29 Apr 2018 03:35:35 PM PDT

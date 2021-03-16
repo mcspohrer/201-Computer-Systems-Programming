@@ -1,0 +1,39 @@
+Script started on Sun 03 Jun 2018 01:36:22 PM PDT
+mspohrer@babbage:~/CS201_Stuff/prog4/mspohrer$ make
+gcc -c -g -o hw3.o -ansi -pedantic -O0 -Wall hw3.c
+gcc -c -g -o crc.o -ansi -pedantic -O0 -Wall crc.c
+gcc -g -o hw3 -ansi -pedantic -O0 -Wall hw3.o crc.o
+as --64 -o crca1.o crca1.s
+gcc -g -o hw3a1 -ansi -pedantic -O0 -Wall hw3.o crca1.o
+as --64 -o crca2.o crca2.s
+gcc -g -o hw3a2 -ansi -pedantic -O0 -Wall hw3.o crca2.o
+mspohrer@babbage:~/CS201_Stuff/prog4/mspohrer$ ./hw3 "CS201 graders are the coolest people in the world!"
+
+Results
+=======
+
+CRC: 94
+Iterations run: 1000000.  Total execution time: 10000 ms.  Time per iteration: 10 us
+
+mspohrer@babbage:~/CS201_Stuff/prog4/mspohrer$ ./hw3 "CS201 graders are the coolest people in the world!"[C[1@a[1@1
+
+Results
+=======
+
+CRC: 94
+Iterations run: 1000000.  Total execution time: 7000 ms.  Time per iteration: 7 us
+
+mspohrer@babbage:~/CS201_Stuff/prog4/mspohrer$ ./hw3a1 "CS201 graders are the coolest people in the world!"[C[C[1P[1@2
+
+Results
+=======
+
+CRC: 94
+Iterations run: 1000000.  Total execution time: 2000 ms.  Time per iteration: 2 us
+
+mspohrer@babbage:~/CS201_Stuff/prog4/mspohrer$ make clean
+rm -f *.o hw3 hw3a1 hw3a2
+mspohrer@babbage:~/CS201_Stuff/prog4/mspohrer$ exit
+exit
+
+Script done on Sun 03 Jun 2018 01:37:38 PM PDT

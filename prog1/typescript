@@ -1,0 +1,67 @@
+Script started on Mon 22 Jan 2018 01:08:39 PM PST
+mspohrer@ada:~/CS201_Stuff/prof1$ ./prog1
+
+A word will randomly appear on your screen ad waitfor you to type it. Once finished typing
+just hit enter and I'll do the rest. Be sure to type it exactly as it is shown!
+
+Your word is: quick
+quick
+
+Good Job!
+
+Your word is: lazy
+lazy
+
+Good Job!
+
+Your word is: dog
+dog
+
+Good Job!
+
+Your word is: over
+over
+
+Good Job!
+
+Your word is: The
+The
+
+Good Job!
+
+Your word is: the
+the
+
+Good Job!
+
+Your word is: fox
+fox
+
+Good Job!
+
+Your word is: jumps
+jumps
+
+Good Job!
+
+Your word is: brown
+brown
+
+Good Job!
+
+Congrats! You finished! And your time was :
+:16 secs and 946298 usecs
+mspohrer@ada:~/CS201_Stuff/prof1$ ext[K[K[K./prog1
+
+A word will randomly appear on your screen ad waitfor you to type it. Once finished typing
+just hit enter and I'll do the rest. Be sure to type it exactly as it is shown!
+
+Your word is: The
+dsad
+
+BAAAAAHHHHNNN (to be read as a buzzer)
+Unfortunately you have to start over!
+mspohrer@ada:~/CS201_Stuff/prof1$ exit
+exit
+
+Script done on Mon 22 Jan 2018 01:09:15 PM PST

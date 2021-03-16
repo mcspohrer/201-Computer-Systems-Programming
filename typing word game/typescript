@@ -1,0 +1,49 @@
+Script started on Fri 13 Apr 2018 01:36:52 PM PDT
+mspohrer@inguza:~/CS201_Stuff/progs$ ./typing_word_game 
+
+Welcome to the typatron 5000. This game measures how quickly you can type in randomly selected words from 
+the phrase "lazy The dog quick the fox brown over jumps"....er, I meant "The quick brown fox jumps over the lazy dog". 
+Be sure to type your answers in exactly as they appear on the screen, caps and all!
+
+
+Your Word:   fox 
+fox
+
+Your Word:  over 
+aefgasdfg
+
+BAAAANNNNNNNN (to be read as an annoying buzzer), please try again and remember, enter it EXACTLY as it is shown!
+Your Word:  over 
+over
+
+Your Word:   the 
+the
+
+Your Word: jumps 
+jumps
+
+Your Word: quick 
+quick
+
+Your Word:   dog 
+dog
+
+Your Word:   The 
+The
+
+Your Word:  lazy 
+adfdsgfds
+
+BAAAANNNNNNNN (to be read as an annoying buzzer), please try again and remember, enter it EXACTLY as it is shown!
+Your Word:  lazy 
+lazy
+
+Your Word: brown 
+brown
+
+Donesoes! Good job! Your time was 19 sec and 541160 usecs.
+
+mspohrer@inguza:~/CS201_Stuff/progs$ exit
+exit
+
+Script done on Fri 13 Apr 2018 01:37:19 PM PDT
